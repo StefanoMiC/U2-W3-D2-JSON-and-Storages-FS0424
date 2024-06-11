@@ -57,6 +57,7 @@ const objFromStorage = localStorage.getItem("objItem");
 const jsonToObj = JSON.parse(objFromStorage);
 console.log(jsonToObj.surname);
 
+// dates
 localStorage.setItem("dateItem", new Date().toISOString());
 const dateFromStorage = localStorage.getItem("dateItem"); // '2024-06-11T09:40:02.543Z'
 const convertedStringToDate = new Date(dateFromStorage); // ricreo una vera data a partire dal dato stringa ricevuto dallo storage: new Date('2024-06-11T09:40:02.543Z')
