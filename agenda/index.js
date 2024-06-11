@@ -21,9 +21,9 @@ const removeCol = event => {
   const existingAppointments = JSON.parse(localStorage.getItem("events-memory"));
 
   const h5 = col.querySelector("h5");
-  const eventNameClicked = h5.innerText;
+  const eventNameOfClickedCard = h5.innerText;
 
-  const indexFound = existingAppointments.findIndex(app => app.eventName === eventNameClicked);
+  const indexFound = existingAppointments.findIndex(app => app.eventName === eventNameOfClickedCard);
 
   if (indexFound !== -1) {
     existingAppointments.splice(indexFound, 1);
