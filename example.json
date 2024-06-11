@@ -1,0 +1,15 @@
+{
+  "name": "Stefano",
+  "surname": "Miceli",
+  "teaching": true,
+  "webcam": true,
+  "numOfStudents": 30,
+  "location": {
+    "state": "Italy",
+    "region": "FVG",
+    "latitude": 45.8982,
+    "longitude": 23.2922
+  },
+  "courseUnits": ["JS III", "BW II", "React", "React Adv"],
+  "lectureFinished": null
+}
